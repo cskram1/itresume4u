@@ -20,19 +20,19 @@
 <P>
 Please provide information for the heading:
 <br> <br> 
-First Name: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+First Name: <INPUT TYPE="text" NAME="FIRSTNAME" SIZE=40 MAXLENGTH=80>
 <br>
-Last Name: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+Last Name: <INPUT TYPE="text" NAME="LASTNAME" SIZE=40 MAXLENGTH=80>
 <br>
-Street Address: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+Street Address: <INPUT TYPE="text" NAME="ADDRESS" SIZE=40 MAXLENGTH=80>
 <br>
-City Address: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+City Address: <INPUT TYPE="text" NAME="CITY" SIZE=40 MAXLENGTH=80>
 <br>
-Zip Code: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+Zip Code: <INPUT TYPE="text" NAME="ZIP" SIZE=40 MAXLENGTH=80>
 <br>
-E-mail address: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+E-mail address: <INPUT TYPE="text" NAME="EMAIL" SIZE=40 MAXLENGTH=80>
 <br>
-Phone Number: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+Phone Number: <INPUT TYPE="text" NAME="PHONE" SIZE=40 MAXLENGTH=80>
 <HR>
 
 
@@ -46,17 +46,17 @@ University Name: <INPUT TYPE="RADIO" NAME="SCHOOLNAME" VALUE="1">Illinois State 
 <P>
 
 <P>
-University Location: <INPUT TYPE="RADIO" NAME="SCHOOLNAME" VALUE="1">Bloomington-Normal
+University Location: <INPUT TYPE="RADIO" NAME="SCHOOLLOC" VALUE="1">Bloomington-Normal
 <P>
 
 <P>
-Degree: <INPUT TYPE="RADIO" NAME="SCHOOLNAME" VALUE="1">Degree of Science 
-		<INPUT TYPE="RADIO" NAME="SCHOOLNAME" VALUE="1">Degree of Business 
+Degree: <INPUT TYPE="RADIO" NAME="DEGREE" VALUE="1">Degree of Science 
+		<INPUT TYPE="RADIO" NAME="DEGREE" VALUE="1">Degree of Business 
 <P>
 
 <P>
-Major: <INPUT TYPE="RADIO" NAME="SCHOOLNAME" VALUE="1">Information Systems
-		<INPUT TYPE="RADIO" NAME="SCHOOLNAME" VALUE="1">Business Information Systems 
+Major: <INPUT TYPE="RADIO" NAME="MAJOR" VALUE="1">Information Systems
+		<INPUT TYPE="RADIO" NAME="MAJOR" VALUE="1">Business Information Systems 
 <P>
 
 <P>
@@ -165,19 +165,19 @@ Cobol</TD>
 <TR ALIGN=CENTER>
 <TD  ALIGN=LEFT>
 UML Diagrams</TD>
-<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="1"></TD>
-<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="2"></TD>
-<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="3"></TD>
-<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="4"></TD>
+<TD><INPUT TYPE="RADIO" NAME="uml" VALUE="1"></TD>
+<TD><INPUT TYPE="RADIO" NAME="uml" VALUE="2"></TD>
+<TD><INPUT TYPE="RADIO" NAME="uml" VALUE="3"></TD>
+<TD><INPUT TYPE="RADIO" NAME="uml" VALUE="4"></TD>
 </TR>
 
 <TR ALIGN=CENTER>
 <TD  ALIGN=LEFT>
 Project Management</TD>
-<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="1"></TD>
-<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="2"></TD>
-<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="3"></TD>
-<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="4"></TD>
+<TD><INPUT TYPE="RADIO" NAME="project" VALUE="1"></TD>
+<TD><INPUT TYPE="RADIO" NAME="project" VALUE="2"></TD>
+<TD><INPUT TYPE="RADIO" NAME="project" VALUE="3"></TD>
+<TD><INPUT TYPE="RADIO" NAME="project" VALUE="4"></TD>
 </TR>
 
 </TABLE>
@@ -186,17 +186,17 @@ Project Management</TD>
 <h3>
 Please provide your Job Experience:
 </h3>
-Job Title: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+Job Title: <INPUT TYPE="text" NAME="JOBTITLE" SIZE=40 MAXLENGTH=80>
 <br>
-Employer: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+Employer: <INPUT TYPE="text" NAME="EMPLOYER" SIZE=40 MAXLENGTH=80>
 <br>
-City: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+City: <INPUT TYPE="text" NAME="JOBCITY" SIZE=40 MAXLENGTH=80>
 <br>
-State: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+State: <INPUT TYPE="text" NAME="JOBSTATE" SIZE=40 MAXLENGTH=80>
 <br>
-Start Date: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+Start Date: <input id="date" type="date">
 <br>
-End Date: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+End Date: <input id="date" type="date">
 <br>
 Description: <TEXTAREA NAME="DESCRIPTION" ROWS="4"  COLS="50">
 </TEXTAREA>

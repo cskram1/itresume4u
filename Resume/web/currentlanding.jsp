@@ -7,7 +7,7 @@
 <BODY>
 <H1><CENTER>Create Your Resume</CENTER></H1>
 
-<H4><CENTER>Students of Illinois State University</CENTER></H4>
+<H3><CENTER>Students of Illinois State University</CENTER></H4>
 
 </CENTER></H4>
 <tr>
@@ -93,6 +93,24 @@ Year <SELECT NAME="yob">
 Grade Point Average (GPA): <INPUT TYPE="text" NAME="email" SIZE=10 MAXLENGTH=10>    
 <HR>
 
+<H3>Please select the courses you would like to include:
+</h3>
+Courses:
+<br>
+<INPUT TYPE="RADIO" NAME="168" VALUE="2">IT 168 - Structured Problem Solving using Java
+<br>
+<INPUT TYPE="RADIO" NAME="261" VALUE="1">IT 261 - Systems Development
+<br>
+<INPUT TYPE="RADIO" NAME="262" VALUE="2">IT 262 - Project Management
+<br>
+<INPUT TYPE="RADIO" NAME="COBOL" VALUE="2">IT 272/372 - Cobol Development
+<br>
+<INPUT TYPE="RADIO" NAME="363" VALUE="2">IT 363 - Systems Development
+<br>
+<INPUT TYPE="RADIO" NAME="378" VALUE="2">IT 378 - External Data Structures (SQL)
+
+<HR>
+
 <H3>Please select the following technical skills that you would association with yourself:
 </H3>
 
@@ -119,7 +137,7 @@ Grade Point Average (GPA): <INPUT TYPE="text" NAME="email" SIZE=10 MAXLENGTH=10>
 
 <TR ALIGN=CENTER>
 <TD  ALIGN=LEFT>
-  SQl</TD>
+  SQL</TD>
 <TD><INPUT TYPE="RADIO" NAME="freedom" VALUE="1"></TD>
 <TD><INPUT TYPE="RADIO" NAME="freedom" VALUE="2"></TD>
 <TD><INPUT TYPE="RADIO" NAME="freedom" VALUE="3"></TD>
@@ -128,7 +146,7 @@ Grade Point Average (GPA): <INPUT TYPE="text" NAME="email" SIZE=10 MAXLENGTH=10>
 
 <TR ALIGN=CENTER>
 <TD  ALIGN=LEFT>
-   HTML</TD>
+   Front-End</TD>
 <TD><INPUT TYPE="RADIO" NAME="demand" VALUE="1"></TD>
 <TD><INPUT TYPE="RADIO" NAME="demand" VALUE="2"></TD>
 <TD><INPUT TYPE="RADIO" NAME="demand" VALUE="3"></TD>
@@ -153,26 +171,39 @@ UML Diagrams</TD>
 <TD><INPUT TYPE="RADIO" NAME="creative" VALUE="4"></TD>
 </TR>
 
+<TR ALIGN=CENTER>
+<TD  ALIGN=LEFT>
+Project Management</TD>
+<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="1"></TD>
+<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="2"></TD>
+<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="3"></TD>
+<TD><INPUT TYPE="RADIO" NAME="creative" VALUE="4"></TD>
+</TR>
+
 </TABLE>
 
 <HR>
-<p><P>
-Do you have any additional thoughts on the topic of the survey?
-<TEXTAREA NAME="comment" ROWS="4"  COLS="50">
+<h3>
+Please provide your Job Experience:
+</h3>
+Job Title: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+<br>
+Employer: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+<br>
+City: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+<br>
+State: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+<br>
+Start Date: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+<br>
+End Date: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
+<br>
+Description: <TEXTAREA NAME="DESCRIPTION" ROWS="4"  COLS="50">
 </TEXTAREA>
+<HR>
 
-<P><P>
-If you would like to have a copy of the final summary results sent to you, 
-please type your e-mail address below:
-<BR>
-<CENTER>
-E-mail address: <INPUT TYPE="text" NAME="email" SIZE=40 MAXLENGTH=80>
-</CENTER>
-<P><P>
-Thank you for taking the survey.  To submit the results, press the 
-<B>Send info</B> button below.
-<P><P>
- 
+
+ <br>
 <input type=submit VALUE="Create Resume"> <input type=reset VALUE="Clear values">
 <HR>
 </FORM>

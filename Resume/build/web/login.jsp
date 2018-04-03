@@ -1,4 +1,5 @@
-<%@ page import ="java.sql.*" %>
+<%@ page import ="java.sql.*"%>
+<?@ include file="sqlconnect.jsp" %>
 <%
     String userid = request.getParameter("uname");    
     String pwd = request.getParameter("pass");

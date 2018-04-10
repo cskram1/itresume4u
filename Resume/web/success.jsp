@@ -7,6 +7,8 @@ You are not logged in<br/>
 %>
 Welcome <%=session.getAttribute("userid")%>
 <a href='logout.jsp'>Log out</a>
+<a href='changeInfo.jsp'>Change Account Information</a>
+<a href='currentlanding.jsp'>Home</a>
 <%
     }
 %>

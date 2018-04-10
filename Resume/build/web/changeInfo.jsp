@@ -23,38 +23,38 @@
                 <div class="form-group">
                     <label class="col-lg-3 control-label">First name:</label>
                     <div class="col-lg-8">
-                        <input class="form-control" value="" type="text">
+                        <input class="form-control" value="" name ="acctFirst" type="text">
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-lg-3 control-label">Last name:</label>
                     <div class="col-lg-8">
-                        <input class="form-control" value="" type="text">
+                        <input class="form-control" value="" name ="acctLast" type="text">
                     </div>
                 </div>
          
                 <div class="form-group">
                     <label class="col-lg-3 control-label">Email:</label>
                     <div class="col-lg-8">
-                        <input class="form-control" value="" type="text">
+                        <input class="form-control" value="" name ="acctEmail" type="text">
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-md-3 control-label">Username:</label>
                     <div class="col-md-8">
-                        <input class="form-control" value="" type="text">
+                        <input class="form-control" value="" name ="acctUser" type="text">
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-md-3 control-label">Password:</label>
                     <div class="col-md-8">
-                        <input class="form-control" value="" type="password">
+                        <input class="form-control" value="" name ="acctPass" type="password">
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="col-md-3 control-label">Confirm password:</label>
                     <div class="col-md-8">
-                        <input class="form-control" value="" type="password">
+                        <input class="form-control" value="" name ="acctConfirm" type="password">
                     </div>
                 </div>
                 <div class="form-group">

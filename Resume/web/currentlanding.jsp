@@ -13,7 +13,7 @@
 <tr>
                         <td colspan="2"><a href="index.jsp">Log In</a></td>
                         <br/>
-                        <td colspan="2"><a href="changeInfo.jsp">Account Information</a></td>
+                        <td colspan="2"><a href="index.jsp">Account Settings</a></td>
                     </tr>
 
 <form method=post

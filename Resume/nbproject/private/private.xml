@@ -3,9 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/markm/Documents/GitHub/itresume4u/Resume/web/index.jsp</file>
             <file>file:/C:/Users/markm/Documents/GitHub/itresume4u/Resume/web/login.jsp</file>
             <file>file:/C:/Users/markm/Documents/GitHub/itresume4u/Resume/web/reg.jsp</file>
+=======
+            <file>file:/C:/Users/Christian/Documents/GitHub/itresume4u/Resume/web/currentlanding.jsp</file>
+            <file>file:/C:/Users/Christian/Documents/GitHub/itresume4u/Resume/web/changeInfo.jsp</file>
+>>>>>>> origin/master
         </group>
     </open-files>
 </project-private>

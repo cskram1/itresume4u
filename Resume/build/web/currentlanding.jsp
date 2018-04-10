@@ -12,6 +12,8 @@
 </CENTER></H4>
 <tr>
                         <td colspan="2"><a href="index.jsp">Log In</a></td>
+                        <br/>
+                        <td colspan="2"><a href="changeInfo.jsp">Account Information</a></td>
                     </tr>
 
 <form method=post
